@@ -1,4 +1,136 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.main-home-page {}
+
+.home-page-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-page-content {
+    position: absolute;
+}
+
+.home-page-content {
+    position: absolute;
+    margin-right: 20px;
+    margin-top: -415px;
+    width: 100%;
+    text-align: end;
+}
+
+h1.home-title {
+    margin: 0px 85px 0px 641px;
+}
+
+p.home-description {
+    margin: 0px 85px 0px 641px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1.home-title {
+    font-size: 50px;
+}
+
+button.button-primary {
+
+    list-style: none;
+    margin: 0px 85px 0px 641px;
+    color: wheat;
+    background: red;
+    padding: 15px;
+    border-radius: 10%;
+    font-size: 20px;
+    border: none;
+}
+
+
+.filuers-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 180px;
+
+}
+
+ .filuers-content{
+    margin-top: 40px;
+ }
+
+.filuers-images img {
+    width: 80%;
+}
+
+.filuers-text-content{
+    width: 50%;
+    text-align: left;
+     
+}
+.filuers-item{
+    list-style: none;
+    margin-top: 10px;
+}
+.filuers-item li{
+    margin-bottom: 5px;
+}
+
+ /* my plan design  */
+
+ .my-plan-title{
+    margin-bottom: 30px;
+ }
+ .my-plan{
+    text-align: center;
+    margin: 0 200px;
+    margin-bottom: 30px;
+ }
+ .my-plan-item{
+    display: flex; 
+    justify-content: space-between;
+ }
+ .item-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ /* whatch section */
+
+ #show_bg {
+    background-image: url(/images/watch.png);
+    background-image: url(/images/gradient1.png);
+    width: 80%;
+    height: 200px;
+    background-size: cover;
+    color: white;
+    margin: 0px 133px;
+    margin-bottom: 30px;
+     
+}
+.watch-text{
+    
+    color: #333;
+    margin-left: 80px;
+    padding-top: 60px;
+     
+}
+.watch-btn{
+    margin-left: 80px;
+    margin-top: 10px;
+    list-style: none;
+     
+    color: wheat;
+    background: red;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 15px;
+    border: none;
+}
+     
