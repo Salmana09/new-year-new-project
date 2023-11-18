@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translator</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .bat{
+            border: 1px solid;
+        }
+
+        .ball{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: brown;
+            position: relative;
+            left: 650px;
+        }
+        .bat .img{
+            transition: transform 0.2s ease-in;
+        }
+
+        .bat:hover .img{
+             transform: rotate(-50deg);
+             transform-origin:top right ;
+        }
+        .bat:hover .ball{
+            transform: translate(500px, -700px);
+        }
+        .ball{
+            transition: transform 1s ease-out 0.2s;
+        }
+    </style>
+</head>
+<body>
+     <div class="bat">
+        <img class="img" src="/images/bat.png" alt="" style="width: 500px; height: 500px;">
+        <div class="ball">
+
+        </div>
+     </div>
+</body>
+</html>
